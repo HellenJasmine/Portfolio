@@ -14,7 +14,7 @@ body{
 
 
 .page{
-    width: 30%;
+    width: 60%;
     border-radius: 20px;
     display: block;
     align-items: center;
@@ -26,9 +26,9 @@ body{
 
 }
 .page img{
-    margin: 10px;
-    height: 150px;
-    width: 40%;
+    
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     object-fit: cover;
     box-shadow:0 0 25px rgb(52, 7, 98);
@@ -42,9 +42,9 @@ body{
 }
 .page .projects{
     background-color: antiquewhite;
-    width: 30%;
+    width: 90%;
     padding: 1%;
-    margin: 1% 35%;
+    margin: auto;
     border-radius: 20px;
 }
 .page .projects:hover{
@@ -56,14 +56,7 @@ body{
     font-size: 20px;
 }
 
-.projects{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
 
-}
 .icons i{
     color: #fff;
     margin: 1px;
@@ -81,15 +74,8 @@ body{
 }
 
 @media screen and(max-width: 100px) {
-
-    .page img{
-    margin: 10px;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow:0 0 25px rgb(52, 7, 98);
-    background-color: aqua;
-  
-}
+ .page{
+    width: 50%;
+ }
+    
 }
