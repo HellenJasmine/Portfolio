@@ -14,7 +14,7 @@ body{
 
 
 .page{
-    width: 60%;
+    width: 50%;
     border-radius: 20px;
     display: block;
     align-items: center;
@@ -26,7 +26,8 @@ body{
 
 }
 .page img{
-    
+    margin-top: 5%;
+    margin-bottom: 1%;
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
@@ -41,10 +42,10 @@ body{
     font-weight: bold;
 }
 .page .projects{
-    background-color: antiquewhite;
+    background-color: rgb(240, 230, 249);
     width: 90%;
-    padding: 1%;
-    margin: auto;
+    padding:1%;
+    margin: 5px auto;
     border-radius: 20px;
 }
 .page .projects:hover{
