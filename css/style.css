@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     background-position: center;
-    background: url('../img/fundo0.jpg');
+    background: url('../img/fundo03.jpg');
     
     
 }
@@ -39,7 +39,7 @@ body{
 .page .projects a{
     
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(153, 26, 168);
     font-weight: bold;
 }
 .page .projects{
@@ -75,7 +75,7 @@ body{
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
  .page{
     width: 90%;
  }
